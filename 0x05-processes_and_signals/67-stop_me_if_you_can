@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Stops the 7-highlander process using a method other than kill or killall
+PID=$(pgrep -f "7-highlander")
+if [ -n "$PID" ]; then
+    pkill -f "7-highlander"
+fi
