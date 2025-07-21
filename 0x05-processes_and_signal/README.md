@@ -1,1 +1,1 @@
-Process and signal project readme
+PROCESSES and SIGNALS
