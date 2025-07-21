@@ -4,5 +4,4 @@ PID=$(pgrep -o -f "7-highlander")
 
 if [ -n "$PID" ]; then
     kill -9 "$PID"
-    sleep 0.1
 fi
