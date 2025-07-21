@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script lists and formats the content of the current directory
+
+lst=$(ls)
+
+for i in $lst
+do
+	echo "$i" | cut -d '-' -f2
+done
